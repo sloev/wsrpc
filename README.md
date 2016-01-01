@@ -26,11 +26,11 @@ The format is:
 {"instruction":"silly instruction", "args":"silly args", "callback_id":"34_callme"}
 ```
 
-*instruction* is the name of the function you call, directly the same as the func name in python.
+**instruction** is the name of the function you call, directly the same as the func name in python.
 
-*args* can really be anything
+**args** can really be anything
 
-*callback_id* is a voluntary(i havent checked how volluntary :-) id that you can give in order to better differentiate when receiving the responses. Remember the Websocket is full-duplex.
+**callback_id** is a voluntary(i havent checked how volluntary :-) id that you can give in order to better differentiate when receiving the responses. Remember the Websocket is full-duplex.
 
 ##How To Run
 install dependencies (atm. only tornado):

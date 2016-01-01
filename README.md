@@ -18,7 +18,7 @@ add_to_ws_lookup(my_new_function)
 
 and then a new RPCall will be available in the running Websocket. Connected Clients will not need to reconnect to see this.
 
-####JSON Format
+####JSON format
 
 The format is:
 
@@ -32,7 +32,7 @@ The format is:
 
 **callback_id** is a voluntary(i havent checked how volluntary :-) id that you can give in order to better differentiate when receiving the responses. Remember the Websocket is full-duplex.
 
-##How To Run
+##How to run
 install dependencies (atm. only tornado):
 
 ```bash
@@ -45,5 +45,5 @@ see tests for dox, and run them:
 python -m tornado.testing discover tests
 ```
 
-##copyright
+##Copyright
 Johannes Gårdsted Valbjørn 2016
